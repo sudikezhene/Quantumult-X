@@ -1,15 +1,11 @@
-# > 优酷 acs.youku.com, push.m.youku.com, un-acs.youku.com
-# 播放详情页,首页信息流,顶部tab,我的页面,评论区
-^https:\/\/acs\.youku\.com\/gw\/mtop\.youku\.columbus\.(gateway\.new\.execute|home\.feed|home\.query|uc\.query|ycp\.query) url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
-# 底部tab
-^https:\/\/acs\.youku\.com\/gw\/mtop\.youku\.haidai\.lantern\.appconfig\.get url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
-# 青少年模式弹窗
-^https:\/\/acs\.youku\.com\/gw\/mtop\.youku\.huluwa\.dispatcher\.youthmode\.config2 url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
-# 播放页弹窗动图
-^https:\/\/acs\.youku\.com\/gw\/mtop\.youku\.(pisp\.scripts\.get|xspace\.play\.position\.preload\.query|xspace\.poplayer\.position\.query) url reject-dict
-# 搜索列表
-^https:\/\/acs\.youku\.com\/gw\/mtop\.youku\.soku\.yksearch url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
-# 热剧弹窗
-^https:\/\/push\.m\.youku\.com\/collect-api\/get_push_interval_config_wx\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
-# 开屏广告
-^https:\/\/un-acs\.youku\.com\/gw\/mtop\.youku\.play\.ups\.appinfo\.get url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
+hostname = i.youku.com, m.youku.com, note.youku.com, log.youku.com, pic.youku.com, iaq.youku.com, g3.youku.com, g1.youku.com, intake.youku.com
+
+rewrite-rule ^https://[^/]+/yktv.youku.com/v_/swf/(aq|pc)player.swf$ https://raw.githubusercontent.com/cooolfly/Quantumult-X/master/Scripts/yytv.js, tag=优酷去广告
+
+rewrite-rule ^https?://([^/]+.)?youku.com/api/mat/flash/get.json url script-request-header https://raw.githubusercontent.com/cooolfly/Quantumult-X/master/Scripts/ykurl.js
+
+rewrite-rule ^https://([^/]+.)?youku.com/v_show/id_ url script-request-header https://raw.githubusercontent.com/cooolfly/Quantumult-X/master/Scripts/ykurl.js
+
+hostname = *.youku.com, *.sm.cn
+
+rewrite-rule ^https://([^/]+.)?youku.com/v_show/id_$ url script-request-header https://raw.githubusercontent.com/cooolfly/Quantumult-X/master/Scripts/ykurl.js
