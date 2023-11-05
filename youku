@@ -1,11 +1,31 @@
-hostname = i.youku.com, m.youku.com, note.youku.com, log.youku.com, pic.youku.com, iaq.youku.com, g3.youku.com, g1.youku.com, intake.youku.com
+> 应用名称：优酷净化[墨鱼版]
+> 脚本作者：@ddgksf2013
+> 微信账号：墨鱼手记
+> 更新时间：2023-04-29
+> 通知频道：https://t.me/ddgksf2021
+> 投稿助手：https://t.me/ddgksf2013_bot
+> 问题反馈：📮 ddgksf2013@163.com 📮
+> 使用说明：卸载重新安装，严禁分享他人或传播
+> 脚本功能：去除应用底部短视频Tab、社区Tab、顶部热门Tab，处理开屏广告、首页广告、信息流广告、搜索框热词、评论区广告，优化个人中心，去除视频开始90s广告、视频播放下方广告、搜索中间页广告以及优化视频播放页等等
+> 特别说明：⛔⛔⛔
+          本脚本仅供学习交流使用，禁止转载、售卖
+          ⛔⛔⛔
 
-rewrite-rule ^https://[^/]+/yktv.youku.com/v_/swf/(aq|pc)player.swf$ https://raw.githubusercontent.com/cooolfly/Quantumult-X/master/Scripts/yytv.js, tag=优酷去广告
+[rewrite_local]
 
-rewrite-rule ^https?://([^/]+.)?youku.com/api/mat/flash/get.json url script-request-header https://raw.githubusercontent.com/cooolfly/Quantumult-X/master/Scripts/ykurl.js
+^https?:\/\/iyes\.youku\.com\/uts\/v1\/video url reject-200
+^https?:\/\/amdc\.m\.youku\.com url reject-200
+^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.relationrecommend\.wirelessrecommend\.recommend url script-response-body https://gist.githubusercontent.com/ddgksf2013/5b431857f8b88acbc7ac2453a21e676a/raw/youku.adblock.js
+^https?:\/\/iyes\.youku\.com\/uts\/v1\/start url script-response-body https://gist.githubusercontent.com/ddgksf2013/5b431857f8b88acbc7ac2453a21e676a/raw/youku.adblock.js
+^https?:\/\/acs\.youku\.com\/gw\/mtop\.youku\.haidai\.lantern\.appconfig\.get url script-response-body https://gist.githubusercontent.com/ddgksf2013/5b431857f8b88acbc7ac2453a21e676a/raw/youku.adblock.js
+^https?:\/\/acs\.youku\.com\/gw\/mtop\.youku\.columbus\.home\.query url script-response-body https://gist.githubusercontent.com/ddgksf2013/5b431857f8b88acbc7ac2453a21e676a/raw/youku.adblock.js
+^https?:\/\/acs\.youku\.com\/gw\/mtop\.youku\.columbus\.uc\.query url script-response-body https://gist.githubusercontent.com/ddgksf2013/5b431857f8b88acbc7ac2453a21e676a/raw/youku.adblock.js
+^https?:\/\/acs\.youku\.com\/gw\/mtop\.youku\.play\.ups\.appinfo\.get url script-response-body https://gist.githubusercontent.com/ddgksf2013/5b431857f8b88acbc7ac2453a21e676a/raw/youku.adblock.js
+^https?:\/\/acs\.youku\.com\/gw\/mtop\.youku\.soku\.yksearch url script-response-body https://gist.githubusercontent.com/ddgksf2013/5b431857f8b88acbc7ac2453a21e676a/raw/youku.adblock.js
+^https?:\/\/acs\.youku\.com\/gw\/mtop\.youku\.columbus\.gateway\.new\.execute url script-response-body https://gist.githubusercontent.com/ddgksf2013/5b431857f8b88acbc7ac2453a21e676a/raw/youku.adblock.js
+^https?:\/\/acs\.youku\.com\/gw\/mtop\.youku\.huluwa\.dispatcher\.youthmode\.config url script-response-body https://gist.githubusercontent.com/ddgksf2013/5b431857f8b88acbc7ac2453a21e676a/raw/youku.adblock.js
+^https?:\/\/acs\.youku\.com\/gw\/mtop\.youku\.columbus\.ycp\.query url script-response-body https://gist.githubusercontent.com/ddgksf2013/5b431857f8b88acbc7ac2453a21e676a/raw/youku.adblock.js
 
-rewrite-rule ^https://([^/]+.)?youku.com/v_show/id_ url script-request-header https://raw.githubusercontent.com/cooolfly/Quantumult-X/master/Scripts/ykurl.js
+[mitm]
 
-hostname = *.youku.com, *.sm.cn
-
-rewrite-rule ^https://([^/]+.)?youku.com/v_show/id_$ url script-request-header https://raw.githubusercontent.com/cooolfly/Quantumult-X/master/Scripts/ykurl.js
+hostname=acs.youku.com, iyes.youku.com, acs.m.taobao.com
