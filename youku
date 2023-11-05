@@ -1,4 +1,4 @@
-[rewrite_local]
+hostname=acs.youku.com, iyes.youku.com, acs.m.taobao.com
 
 ^https?:\/\/iyes\.youku\.com\/uts\/v1\/video url reject-200
 ^https?:\/\/amdc\.m\.youku\.com url reject-200
@@ -13,6 +13,4 @@
 ^https?:\/\/acs\.youku\.com\/gw\/mtop\.youku\.huluwa\.dispatcher\.youthmode\.config url script-response-body https://gist.githubusercontent.com/ddgksf2013/5b431857f8b88acbc7ac2453a21e676a/raw/youku.adblock.js
 ^https?:\/\/acs\.youku\.com\/gw\/mtop\.youku\.columbus\.ycp\.query url script-response-body https://gist.githubusercontent.com/ddgksf2013/5b431857f8b88acbc7ac2453a21e676a/raw/youku.adblock.js
 
-[mitm]
 
-hostname=acs.youku.com, iyes.youku.com, acs.m.taobao.com
