@@ -1,2 +1,6 @@
-hostname = qwhdcdn.cmcc-cs.cn
-^https:\/\/qwhdcdn\.cmcc-cs\.cn\/prd-mgcenter url reject
+hostname = client.app.coc.10086.cn,wap.js.10086.cn, 
+# > zhongguoyidong
+^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/init\/startInit url reject
+^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/explorePage\/getAdverList url reject
+# > zhongguoyidongjiangsu
+^https?:\/\/wap\.js\.10086\.cn\/jsmccClient\/cd\/market_content\/api\/v\d\/market_content\.page\.query url reject
