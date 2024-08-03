@@ -1,3 +1,3 @@
 hostname=*pglstatp-toutiao.com
 #知乎
-^http:\/\/lf26-sf-be-pack-sign\.pglstatp-toutiao\.com\/ad\.union\.api
+^http:\/\/lf26-sf-be-pack-sign\.pglstatp-toutiao\.com\/ad\.union\.api url reject-200
