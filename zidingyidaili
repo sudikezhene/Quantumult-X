@@ -1,1 +1,7 @@
-
+host-suffix, hostloc.com, CustomProxy
+host-keyword, gstatic.com, CustomProxy
+host-keyword, ytimg, CustomProxy
+host-keyword, ggpht, CustomProxy
+host-keyword, ytmig, CustomProxy
+host-keyword, github, CustomProxy
+host-keyword, paypal, CustomProxy
