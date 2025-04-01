@@ -1,1 +1,5 @@
-
+host-keyword, appsflyer.com, reject
+host-keyword, singular.net, reject
+host-suffix, gwp.xiaojukeji.com, reject
+host-suffix, app.adjust.net.in, reject
+host-suffix, adjust.com, reject
