@@ -4,3 +4,4 @@ host-suffix, gwp.xiaojukeji.com, reject
 host-suffix, app.adjust.net.in, reject
 host-suffix, adjust.com, reject
 host-keyword, chartbeat, reject
+host-keyword, outbrain.com, reject
