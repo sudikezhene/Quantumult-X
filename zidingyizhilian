@@ -1,0 +1,11 @@
+host-keyword, -cn.com, CustomDirect
+host-keyword, tesla, CustomDirect
+host-keyword, lencr.org, CustomDirect
+host-keyword, mzstatic.com, CustomDirect
+host-keyword, speedtest, CustomDirect
+host-suffix, comodoca.com, CustomDirect
+host-suffix, umsns.com, CustomDirect
+host-suffix, usertrust.com, CustomDirect
+host-suffix, sectigo.com, CustomDirect
+host-suffix, zbstatic1.com, CustomDirect
+host-suffix, digicert.com, CustomDirect
