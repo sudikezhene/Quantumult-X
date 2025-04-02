@@ -9,3 +9,4 @@ host-suffix, sectigo.com, direct
 host-suffix, zbstatic1.com, direct
 host-suffix, digicert.com, direct
 host-keyword, geekbench, direct
+host-keyword, ifconfig, direct
