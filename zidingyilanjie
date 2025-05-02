@@ -8,3 +8,5 @@ host-keyword, outbrain.com, reject
 host-keyword, scorecardresearch.com, reject
 host-keyword, delivery.net, reject
 host-keyword, Appier, reject
+host-keyword, jdbstatic, reject
+
