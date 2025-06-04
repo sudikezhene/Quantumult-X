@@ -11,3 +11,4 @@ host-keyword, Appier, reject
 host-keyword, adjust., reject
 host-keyword, smadex.com, reject
 host-keyword, sentry.io, reject
+host-suffix, adroll.com, reject
