@@ -7,7 +7,7 @@ host-keyword, taobao, direct
 host-keyword, aliyun, direct
 host-keyword, meituan, direct
 host-suffix, jd.com, direct
-host-suffix, .cn, direct
+host-suffix, cn, direct
 host-suffix, zaobao.com, direct
 host-keyword, -cn.com, direct
 host-keyword, lencr.org, direct
