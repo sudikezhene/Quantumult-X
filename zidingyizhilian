@@ -2,12 +2,12 @@ host-keyword, zhihu, direct
 host-keyword, bilibili, direct
 host-keyword, bilivideo, direct
 host-keyword, weibo, direct
+host-keyword, alipay, direct
 host-keyword, taobao, direct
 host-keyword, aliyun, direct
 host-keyword, meituan, direct
 host-suffix, jd.com, direct
 host-suffix, .cn, direct
-host-keyword, alipay, direct
 host-suffix, zaobao.com, direct
 host-keyword, -cn.com, direct
 host-keyword, lencr.org, direct
