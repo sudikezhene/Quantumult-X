@@ -8,6 +8,7 @@ host-keyword, meituan, direct
 host-suffix, jd.com, direct
 host-suffix, .cn, direct
 host-keyword, alipay, direct
+host-suffix, zaobao.com, direct
 host-keyword, -cn.com, direct
 host-keyword, lencr.org, direct
 host-keyword, mzstatic.com, direct
@@ -26,4 +27,4 @@ host-keyword, epson, direct
 host-keyword, pandahelperpro, direct
 host-keyword, qianling, direct
 host-suffix, hk01.com, direct
-host-suffix, zaobao.com, direct
+
