@@ -14,3 +14,4 @@ host-keyword, sentry.io, reject
 host-suffix, adroll.com, reject
 host-suffix, adserver.juicyads.com, reject
 host-suffix, busuanzi.icodeq.com, reject
+host-suffix, adsafeprotected.com, reject
