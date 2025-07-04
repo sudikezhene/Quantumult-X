@@ -16,3 +16,4 @@ host-suffix, juicyads.com, reject
 host-suffix, busuanzi.icodeq.com, reject
 host-suffix, adsafeprotected.com, reject
 host-suffix, v1d.szbdyd.com, reject
+host-suffix, clarity.ms, reject
