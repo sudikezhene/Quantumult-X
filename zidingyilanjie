@@ -17,3 +17,4 @@ host-suffix, busuanzi.icodeq.com, reject
 host-suffix, adsafeprotected.com, reject
 host-suffix, v1d.szbdyd.com, reject
 host-suffix, clarity.ms, reject
+host-keyword, admaster.cc, reject
