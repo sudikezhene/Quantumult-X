@@ -18,3 +18,4 @@ host-suffix, adsafeprotected.com, reject
 host-suffix, v1d.szbdyd.com, reject
 host-suffix, clarity.ms, reject
 host-keyword, admaster.cc, reject
+host-suffix, nr-data.net, reject
