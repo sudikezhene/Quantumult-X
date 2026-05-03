@@ -27,3 +27,6 @@ host-keyword, speed17.com, ProxyLite
 host-keyword, esm.sh, ProxyLite
 host-keyword, gstatic.com, ProxyLite
 host-keyword, chatgpt, ProxyLite
+host-keyword, claude, ProxyLite
+host-keyword, anthropic.com, ProxyLite
+
