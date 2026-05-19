@@ -21,3 +21,5 @@ host-keyword, admaster.cc, reject
 host-suffix, nr-data.net, reject
 host-keyword, app-analytics-services.com, reject
 host-keyword, segment., reject
+host-keyword, datadoghq.com, reject
+
