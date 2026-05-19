@@ -29,4 +29,6 @@ host-keyword, gstatic.com, ProxyLite
 host-keyword, chatgpt, ProxyLite
 host-keyword, claude, ProxyLite
 host-keyword, anthropic.com, ProxyLite
+host-keyword, openai.com, ProxyLite
+
 
