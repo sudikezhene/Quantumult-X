@@ -1,14 +1,12 @@
 host-keyword, appsflyer.com, reject
 host-keyword, singular.net, reject
 host-suffix, gwp.xiaojukeji.com, reject
-host-suffix, app.adjust.net.in, reject
-host-suffix, adjust.com, reject
 host-keyword, chartbeat, reject
 host-keyword, outbrain.com, reject
 host-keyword, scorecardresearch.com, reject
 host-keyword, delivery.net, reject
 host-keyword, Appier, reject
-host-keyword, adjust., reject
+host-keyword, .adjust., reject
 host-keyword, smadex.com, reject
 host-keyword, sentry.io, reject
 host-suffix, adroll.com, reject
@@ -20,9 +18,8 @@ host-suffix, clarity.ms, reject
 host-keyword, admaster.cc, reject
 host-suffix, nr-data.net, reject
 host-keyword, app-analytics-services.com, reject
-host-keyword, segment., reject
+host-keyword, .segment., reject
 host-keyword, datadoghq.com, reject
 host-keyword, kochava.com, reject
-host-keyword, permutive.com, reject
 host-keyword, permutive.com, reject
 host-keyword, activation.sph.com.sg, reject
