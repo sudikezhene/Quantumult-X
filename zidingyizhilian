@@ -3,15 +3,12 @@ host-keyword, bilibili, direct
 host-keyword, bilivideo, direct
 host-keyword, weibo, direct
 host-keyword, taobao, direct
-host-keyword, aliyun, direct
 host-keyword, meituan, direct
 host-suffix, jd.com, direct
 host-suffix, cn, direct
-host-suffix, zaobao.com, direct
 host-keyword, -cn.com, direct
 host-keyword, lencr.org, direct
 host-keyword, mzstatic.com, direct
-host-keyword, speedtest, direct
 host-suffix, comodoca.com, direct
 host-suffix, umsns.com, direct
 host-suffix, usertrust.com, direct
@@ -21,7 +18,6 @@ host-suffix, digicert.com, direct
 host-keyword, geekbench, direct
 host-keyword, ifconfig, direct
 host-keyword, rapidssl, direct
-host-keyword, taboola.com, direct
 host-keyword, epson, direct
 host-keyword, pandahelperpro, direct
 host-keyword, qianling, direct
