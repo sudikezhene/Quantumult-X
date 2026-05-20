@@ -22,4 +22,7 @@ host-suffix, nr-data.net, reject
 host-keyword, app-analytics-services.com, reject
 host-keyword, segment., reject
 host-keyword, datadoghq.com, reject
-
+host-keyword, kochava.com, reject
+host-keyword, permutive.com, reject
+host-keyword, permutive.com, reject
+host-keyword, activation.sph.com.sg, reject
