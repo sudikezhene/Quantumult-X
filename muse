@@ -1,0 +1,6 @@
+host-suffix, muse.ai, MUSE
+host-suffix, meta.ai, MUSE
+host-suffix, meta.com, MUSE
+host-suffix, facebook.com, MUSE
+host-suffix, fbcdn.net, MUSE
+host-suffix, facebook.net, MUSE
