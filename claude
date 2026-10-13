@@ -1,0 +1,6 @@
+# Claude / Anthropic
+host-suffix, claude.ai, Claude 
+host-suffix, claude.com, Claude 
+host-suffix, anthropic.com, Claude 
+host-suffix, claudeusercontent.com, Claude 
+host-suffix, clau.de, Claude
