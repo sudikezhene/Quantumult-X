@@ -1,29 +1,43 @@
-host-keyword, zhihu, direct
-host-keyword, bilibili, direct
-host-keyword, bilivideo, direct
-host-keyword, weibo, direct
-host-keyword, taobao, direct
-host-keyword, meituan, direct
-host-suffix, jd.com, direct
-host-suffix, cn, direct
-host-keyword, -cn.com, direct
-host-keyword, lencr.org, direct
-host-keyword, mzstatic.com, direct
-host-suffix, comodoca.com, direct
-host-suffix, umsns.com, direct
-host-suffix, usertrust.com, direct
-host-suffix, sectigo.com, direct
-host-suffix, zbstatic1.com, direct
+host-suffix, doubaocdn.com, direct
+host-suffix, copilot.com, Microsoft
+host-suffix, msftauth.net, Microsoft
+host-suffix, icloud-content.com, direct
+host-suffix, bytedance.com, direct
+host-suffix, qq.com, direct
+host-suffix, zhihu.com, direct
+host-suffix, zhimg.com, direct
+host-suffix, deepseek.com, direct
+host-suffix, landrop.app, direct
+host-suffix, qianwen.com, direct
+host-suffix, cmpay.com, direct
+host-suffix, live.com, direct
+host-suffix, byteacctimg.com, direct
+host-suffix, tctpwebank.com, direct
+host-suffix, zaobao.com, direct
+host-suffix, tongyi.com, direct
+host-suffix, qwen.ai, direct
+host-suffix, alookweb.com, direct
+host-suffix, bytedancevod.com, direct
+host-suffix, byteeffecttos.com, direct
+host-suffix, zstatic.net, direct
+host-suffix, qianling.pw, direct
+host-suffix, bing.net, direct
+host-suffix, volcimagex.net, direct
+host-suffix, tlivemcdn.com, direct
+host-suffix, bytepluscdn.com, direct
+host-suffix, volces.com, direct
+host-suffix, tesla.com, direct
+host-suffix, tao.co, direct
+# ===== 国外Ip =====
+#host-suffix, ifconfig.me, direct
+# ===== Apple =====
+host-suffix,shazam.com,direct
+# ===== 放行数字证书验证 =====
 host-suffix, digicert.com, direct
-host-keyword, geekbench, direct
-host-keyword, ifconfig, direct
-host-keyword, rapidssl, direct
-host-keyword, epson, direct
-host-keyword, pandahelperpro, direct
-host-keyword, qianling, direct
-host-suffix, hk01.com, direct
-host-suffix, asus.com, direct
-host-suffix, asuswebstorage.com, direct
-host-keyword, ipa.store, direct
-host-suffix, trip.com, direct
-host-keyword, zhimg, direct
+host-suffix, globalsign.com, direct
+host-suffix, sectigo.com, direct
+host-suffix, usertrust.com, direct
+host-suffix, comodoca.com, direct
+host-suffix, ssl.com, direct
+# ===== 阿里网段 (Direct) =====
+ip-cidr,47.246.103.0/24,DIRECT
